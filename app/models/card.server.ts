@@ -98,7 +98,6 @@ const filterByLevels = (levels: string[]) => (c: Card) => {
   return levels.map((level) => parseInt(level)).includes(c.Level);
 };
 const filterByCosts = (costs: string[]) => (c: Card) => {
-  console.log("costs", costs);
   if (costs.length === 0) return true;
   return costs.map((cost) => parseInt(cost)).includes(c.Cost);
 };
