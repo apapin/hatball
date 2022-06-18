@@ -1,5 +1,5 @@
 import { Link } from "@remix-run/react";
-import { ObjectType } from "~/components/utils";
+import { ObjectType } from "~/util/utils";
 
 export function Header(props: { active: ObjectType }) {
   return (
