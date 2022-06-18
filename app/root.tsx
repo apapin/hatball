@@ -25,7 +25,9 @@ export const links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "Remix Notes",
+  title: "Hatball | Characters list for Storybook Brawl",
+  description:
+    "A visual guide to every Storybook Brawl character, spell, treasure and hero, with helpful search & filter features.",
   viewport: "width=device-width,initial-scale=1",
 });
 
