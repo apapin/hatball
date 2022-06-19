@@ -14,6 +14,11 @@ export function FilterForm(
     return <></>;
   }
 
+  const possibleLevels =
+    objectType === "TREASURES"
+      ? ["2", "3", "4", "5", "6", "7"]
+      : ["2", "3", "4", "5", "6"];
+
   return (
     <Form method="get" onChange={(e) => submit(e.currentTarget)}>
       {!["TREASURES"].includes(objectType) && (
@@ -42,7 +47,7 @@ export function FilterForm(
       )}
       <div className="px-5">
         <h2 className="pb-2 text-xl">Level</h2>
-        {["2", "3", "4", "5", "6"].map((level) => (
+        {possibleLevels.map((level) => (
           <p className="space flex w-full content-center px-1" key={level}>
             <input
               type="checkbox"
