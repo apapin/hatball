@@ -44,6 +44,7 @@ const sorters: Record<string, (list: Card[]) => Card[]> = {
   attack: R.sortBy((c: Card) => -c.Attack),
   health: R.sortBy((c: Card) => -c.Health),
   level: R.sortBy((c: Card) => c.Level),
+  cost: R.sortBy((c: Card) => c.Cost),
   alignment: R.sortBy((c: Card) => {
     if (c.Subtypes.includes("Good")) {
       return -1;
