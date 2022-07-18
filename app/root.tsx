@@ -43,6 +43,16 @@ export default function App() {
       <head>
         <Meta />
         <Links />
+        <!-- ConveyThis code -->
+<script src="//cdn.conveythis.com/javascript/conveythis-initializer.js"></script>
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function(e) {
+		ConveyThis_Initializer.init({
+			api_key: "pub_093ae53fc1ed3d9e5508aed84705ec9b"
+		});
+	});
+</script>
+<!-- End ConveyThis code -->
       </head>
       <body className="h-full overflow-hidden bg-darkbg text-white">
         <Outlet />
