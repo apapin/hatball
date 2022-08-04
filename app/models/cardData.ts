@@ -5106,8 +5106,8 @@ export const data = [
       "Game Text": "I get double bonuses from Supports. Last Breath: Give the characters Supporting me my Attack and Health this brawl.",
       "Golden or regular": "Golden",
       "Type": "Character",
-      "Subtypes": "Good - Animal",
-      "Keywords": "LastBreath"
+      "Subtypes": "Good - Royal",
+      "Keywords": ""
     },
     {
       "Id": "SBB_CHARACTER_THEGREATANDPOWERFUL",
