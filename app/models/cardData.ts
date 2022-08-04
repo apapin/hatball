@@ -5104,7 +5104,7 @@ export const data = [
       "Attack": 10,
       "Health": 10,
       "Game Text": "I get double bonuses from Supports. Last Breath: Give the characters Supporting me my Attack and Health this brawl.",
-      "Golden or regular": "Golden",
+      "Golden or regular": "Regular",
       "Type": "Character",
       "Subtypes": "Good - Royal",
       "Keywords": ""
